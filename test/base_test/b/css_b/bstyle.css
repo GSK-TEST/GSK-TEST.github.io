@@ -1,0 +1,212 @@
+.Hedd {
+    text-align: center;
+    font-size: 35px;
+
+}
+.md{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 200px;
+    margin-bottom: 50px;
+        
+}
+
+
+
+.nav {
+   
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-around;
+    height: 150px;
+    border: 3px solid #000;
+    border-radius: 40px;
+    background: #fff;
+    
+
+
+}
+
+.nav .inst {
+    font-size: 20px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav .but {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px
+}
+
+.question {
+    width: 350px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+
+
+    border: 3px solid #000;
+    border-radius: 40px;
+    margin: 20px 0px 20px 0px;
+}
+
+.question .Hed {
+    margin: 0px 20px 0px 20px;
+}
+
+.question .Motto {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 150px;
+    font-size: 13px;
+    margin-left: 10px;
+
+}
+
+
+
+.question_main {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.question b {
+    font-size: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.but TEXTAREA {
+    resize: none;
+    height: 50px;
+    font-size: 15px;
+    width: 350px;
+    text-align: center;
+        
+}
+
+@media screen and (device-width: 1024px) {
+    .question_main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .question {
+    width: 850px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+
+
+    border: 3px solid #000;
+    border-radius: 40px;
+    margin: 20px 0px 20px 0px;
+}
+    .question .Hed {
+    margin: 0px 20px 0px 20px;
+       
+}
+    .question .Hed b{
+         font-size: 45px;
+    }
+    .question .Motto {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    height: 300px;
+    font-size: 45px;
+    margin-left: 10px;
+
+}
+    .Motto input{
+        width:40px;
+ height:40px;
+    }
+    .Motto .IO:nth-child(1){
+        margin: 0px 100px 0px 100px;
+        padding: 0px 120px 0px 120px
+    }
+    .Motto .IO:nth-child(2){
+        margin: 0px 50px 0px 50px;
+        padding: 0px 60px 0px 60px
+    }
+    
+    .Motto .I_III:nth-child(1){
+       margin: 0px 170px 0px 170px;
+        padding: 0px 190px 0px 190px 
+    }
+    .Motto .I_III:nth-child(2){
+       margin: 0px 150px 0px 150px;
+        padding: 0px 190px 0px 190px 
+    }
+    .Motto .Mot:nth-child(1){
+        margin: 0px 50px 0px 50px;
+        padding: 0px 70px 0px 70px 
+    }
+    .Motto .Mot{
+        font-size: 40px;
+    }
+    
+    .md{
+    text-align: center;
+    font-size: 55px;
+    margin-top: 350px;
+    margin-bottom: 50px;
+        
+}
+    .nav {
+   
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-around;
+    height: 350px;
+    border: 3px solid #000;
+    border-radius: 40px;
+    background: #fff;
+        
+    
+
+
+}
+    .nav TEXTAREA{
+        width: 700px;
+        height: 100px;
+            font-size: 30px;
+            
+    }
+    .nav  input{
+        width: 500px;
+        height: 150px;
+        font-size: 40px
+            
+            
+    }
+    .nav .but {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px
+}
+   }
