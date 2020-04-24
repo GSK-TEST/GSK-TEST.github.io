@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Тест по Футболу</title>
+    <link rel="stylesheet" href="fcss/fstyle.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body>
+    <script type="text/javascript" language="JavaScript">
+        // <![CDATA[
+        var res = "23231331221334343141";
+
+        function check_me() {
+            var count = 0;
+            with(document.test) {
+                if (!Q1[0].checked && !Q1[1].checked && !Q1[2].checked && !Q1[3].checked) {
+                    count += 1
+                };
+                if (!Q2[0].checked && !Q2[1].checked && !Q2[2].checked && !Q2[3].checked) {
+                    count += 1
+                };
+                if (!Q3[0].checked && !Q3[1].checked && !Q3[2].checked && !Q3[3].checked) {
+                    count += 1
+                };
+                if (!Q4[0].checked && !Q4[1].checked && !Q4[2].checked && !Q4[3].checked) {
+                    count += 1
+                };
+                if (!Q5[0].checked && !Q5[1].checked && !Q5[2].checked && !Q5[3].checked) {
+                    count += 1
+                };
+                if (!Q6[0].checked && !Q6[1].checked && !Q6[2].checked && !Q6[3].checked) {
+                    count += 1
+                };
+                if (!Q7[0].checked && !Q7[1].checked && !Q7[2].checked && !Q7[3].checked) {
+                    count += 1
+                };
+                if (!Q8[0].checked && !Q8[1].checked && !Q8[2].checked && !Q8[3].checked) {
+                    count += 1
+                };
+                if (!Q9[0].checked && !Q9[1].checked && !Q9[2].checked && !Q9[3].checked) {
+                    count += 1
+                };
+                if (!Q10[0].checked && !Q10[1].checked && !Q10[2].checked && !Q10[3].checked) {
+                    count += 1
+                };
+                if (!Q11[0].checked && !Q11[1].checked && !Q11[2].checked && !Q11[3].checked) {
+                    count += 1
+                };
+                if (!Q12[0].checked && !Q12[1].checked && !Q12[2].checked && !Q12[3].checked) {
+                    count += 1
+                };
+                if (!Q13[0].checked && !Q13[1].checked && !Q13[2].checked && !Q13[3].checked) {
+                    count += 1
+                };
+                if (!Q14[0].checked && !Q14[1].checked && !Q14[2].checked && !Q14[3].checked) {
+                    count += 1
+                };
+                if (!Q15[0].checked && !Q15[1].checked && !Q15[2].checked && !Q15[3].checked) {
+                    count += 1
+                };
+                if (!Q16[0].checked && !Q16[1].checked && !Q16[2].checked && !Q16[3].checked) {
+                    count += 1
+                };
+                if (!Q17[0].checked && !Q17[1].checked && !Q17[2].checked && !Q17[3].checked) {
+                    count += 1
+                };
+                if (!Q18[0].checked && !Q18[1].checked && !Q18[2].checked && !Q18[3].checked) {
+                    count += 1
+                };
+                if (!Q19[0].checked && !Q19[1].checked && !Q19[2].checked && !Q19[3].checked) {
+                    count += 1
+                };
+                if (!Q20[0].checked && !Q20[1].checked && !Q20[2].checked && !Q20[3].checked) {
+                    count += 1
+                };
+                if (count > 0) alert("Вы выполнили не все задания. Проверьте себя!")
+                else answer();
+            }
+        }
+
+        function control(k, f1, f2, f3, f4, f5, f6, f7, f8, f9, f10, f11, f12, f13, f14, f15, f16, f17, f18, f19, f20) {
+            if (k == 1 && f1.checked) return true;
+            if (k == 2 && f2.checked) return true;
+            if (k == 3 && f3.checked) return true;
+            if (k == 4 && f4.checked) return true;
+            if (k == 5 && f5.checked) return true;
+            if (k == 6 && f6.checked) return true;
+            if (k == 7 && f7.checked) return true;
+            if (k == 8 && f8.checked) return true;
+            if (k == 9 && f9.checked) return true;
+            if (k == 10 && f10.checked) return true;
+            if (k == 11 && f11.checked) return true;
+            if (k == 12 && f12.checked) return true;
+            if (k == 13 && f13.checked) return true;
+            if (k == 14 && f14.checked) return true;
+            if (k == 15 && f15.checked) return true;
+            if (k == 16 && f16.checked) return true;
+            if (k == 17 && f17.checked) return true;
+            if (k == 18 && f18.checked) return true;
+            if (k == 19 && f19.checked) return true;
+            if (k == 20 && f20.checked) return true;
+            return false;
+        }
+
+        function answer() {
+            answ = "";
+            with(document) {
+                answ += control(res.charAt(0), test.Q1[0], test.Q1[1], test.Q1[2], test.Q1[3]) ? "1" : "0";
+                answ += control(res.charAt(1), test.Q2[0], test.Q2[1], test.Q2[2], test.Q2[3]) ? "1" : "0";
+                answ += control(res.charAt(2), test.Q3[0], test.Q3[1], test.Q3[2], test.Q3[3]) ? "1" : "0";
+                answ += control(res.charAt(3), test.Q4[0], test.Q4[1], test.Q4[2], test.Q4[3]) ? "1" : "0";
+                answ += control(res.charAt(4), test.Q5[0], test.Q5[1], test.Q5[2], test.Q5[3]) ? "1" : "0";
+                answ += control(res.charAt(5), test.Q6[0], test.Q6[1], test.Q6[2], test.Q6[3]) ? "1" : "0";
+                answ += control(res.charAt(6), test.Q7[0], test.Q7[1], test.Q7[2], test.Q7[3]) ? "1" : "0";
+                answ += control(res.charAt(7), test.Q8[0], test.Q8[1], test.Q8[2], test.Q8[3]) ? "1" : "0";
+                answ += control(res.charAt(8), test.Q9[0], test.Q9[1], test.Q9[2], test.Q9[3]) ? "1" : "0";
+                answ += control(res.charAt(9), test.Q10[0], test.Q10[1], test.Q10[2], test.Q10[3]) ? "1" : "0";
+                answ += control(res.charAt(10), test.Q11[0], test.Q11[1], test.Q11[2], test.Q11[3]) ? "1" : "0";
+                answ += control(res.charAt(11), test.Q12[0], test.Q12[1], test.Q12[2], test.Q12[3]) ? "1" : "0";
+                answ += control(res.charAt(12), test.Q13[0], test.Q13[1], test.Q13[2], test.Q13[3]) ? "1" : "0";
+                answ += control(res.charAt(13), test.Q14[0], test.Q14[1], test.Q14[2], test.Q14[3]) ? "1" : "0";
+                answ += control(res.charAt(14), test.Q15[0], test.Q15[1], test.Q15[2], test.Q15[3]) ? "1" : "0";
+                answ += control(res.charAt(15), test.Q16[0], test.Q16[1], test.Q16[2], test.Q16[3]) ? "1" : "0";
+                answ += control(res.charAt(16), test.Q17[0], test.Q17[1], test.Q17[2], test.Q17[3]) ? "1" : "0";
+                answ += control(res.charAt(17), test.Q18[0], test.Q18[1], test.Q18[2], test.Q18[3]) ? "1" : "0";
+                answ += control(res.charAt(18), test.Q19[0], test.Q19[1], test.Q19[2], test.Q19[3]) ? "1" : "0";
+                answ += control(res.charAt(19), test.Q20[0], test.Q20[1], test.Q20[2], test.Q20[3]) ? "1" : "0";
+
+                showResult();
+            }
+        }
+
+        function showResult() {
+            var nok = 0;
+            var i, s;
+
+            for (i = 0; i < answ.length; i++) {
+                nok += answ.charAt(i) == "1" ? 1 : 0;
+            }
+            if (nok == 20) s = "ОТЛИЧНО";
+            if (nok < 20) s = "ХОРОШО";
+            if (nok < 15) s = "УДОВЛЕТВОРИТЕЛЬНО";
+            if (nok < 10) s = "НЕУДОВЛЕТВОРИТЕЛЬНО";
+            document.test.s1.
+            value = "Количество правильных ответов " + nok + ". Ваша оценка " + s;
+
+            with(document.test) {
+                if (answ.charAt(0) == "1") {
+                    T1.value = " + "
+                } else {
+                    T1.value = " - "
+                };
+                if (answ.charAt(1) == "1") {
+                    T2.value = " + "
+                } else {
+                    T2.value = " - "
+                };
+                if (answ.charAt(2) == "1") {
+                    T3.value = " + "
+                } else {
+                    T3.value = " - "
+                };
+                if (answ.charAt(3) == "1") {
+                    T4.value = " + "
+                } else {
+                    T4.value = " - "
+                };
+                if (answ.charAt(4) == "1") {
+                    T5.value = " + "
+                } else {
+                    T5.value = " - "
+                };
+                if (answ.charAt(5) == "1") {
+                    T6.value = " + "
+                } else {
+                    T6.value = " - "
+                };
+                if (answ.charAt(6) == "1") {
+                    T7.value = " + "
+                } else {
+                    T7.value = " - "
+                };
+                if (answ.charAt(7) == "1") {
+                    T8.value = " + "
+                } else {
+                    T8.value = " - "
+                };
+                if (answ.charAt(8) == "1") {
+                    T9.value = " + "
+                } else {
+                    T9.value = " - "
+                };
+                if (answ.charAt(9) == "1") {
+                    T10.value = " + "
+                } else {
+                    T10.value = " - "
+                };
+                if (answ.charAt(10) == "1") {
+                    T11.value = " + "
+                } else {
+                    T11.value = " - "
+                };
+                if (answ.charAt(11) == "1") {
+                    T12.value = " + "
+                } else {
+                    T12.value = " - "
+                };
+                if (answ.charAt(12) == "1") {
+                    T13.value = " + "
+                } else {
+                    T13.value = " - "
+                };
+                if (answ.charAt(13) == "1") {
+                    T14.value = " + "
+                } else {
+                    T14.value = " - "
+                };
+                if (answ.charAt(14) == "1") {
+                    T15.value = " + "
+                } else {
+                    T15.value = " - "
+                };
+                if (answ.charAt(15) == "1") {
+                    T16.value = " + "
+                } else {
+                    T16.value = " - "
+                };
+                if (answ.charAt(16) == "1") {
+                    T17.value = " + "
+                } else {
+                    T17.value = " - "
+                };
+                if (answ.charAt(17) == "1") {
+                    T18.value = " + "
+                } else {
+                    T18.value = " - "
+                };
+                if (answ.charAt(18) == "1") {
+                    T19.value = " + "
+                } else {
+                    T19.value = " - "
+                };
+                if (answ.charAt(19) == "1") {
+                    T20.value = " + "
+                } else {
+                    T20.value = " - "
+                };
+            }
+        }
+
+        function showhide(obj) {
+            if (obj == 'none') return 'inline';
+            else return 'none';
+        }
+        // ]]>
+
+    </script>
+
+
+
+    <form name="test">
+        <header>
+            <nav class="nav fixed-top">
+                <div class="but">
+                    <TEXTAREA name="s1" rows="4" cols="70" readonly> </TEXTAREA>
+                    <input onclick="check_me()" type="button" value="Показать результат">
+                </div>
+            </nav>
+        </header>
+        <div class="md"><b>Тест по футболу</b></div>
+        <div class="question_main">
+            <div class="question">
+                <div class="Hed">
+                    <INPUT type="hidden" size="1" value="" name="T1" /><b> Родиной современного футбола является?</b>
+                </div>
+                <div class="Motto">
+                    <div>
+                        <input type="radio" value="0" name="Q1" /> Италия;
+                    </div>
+                    <div>
+                        <input type="radio" value="1" name="Q1" /> Англия;
+                    </div>
+                    <div>
+                        <input type="radio" value="2" name="Q1" /> Бразилия;
+                    </div>
+                    <div>
+                        <input type="radio" value="3" name="Q1" /> Уругвай.
+                    </div>
+                </div>
+            </div>
+
+            <div class="question">
+                <div class="Hed">
+                    <INPUT type="hidden" size="1" value="" name="T2" /><b> Год основания ФИФА?</b>
+                </div>
+                <div class="Motto">
+                    <div>
+                        <input type="radio" value="0" name="Q2" /> 1900 г.;
+                    </div>
+                    <div>
+                        <input type="radio" value="1" name="Q2" /> 1902 г.;
+                    </div>
+                    <div>
+                        <input type="radio" value="2" name="Q2" /> 1904 г.;
+                    </div>
+                    <div>
+                        <input type="radio" value="3" name="Q2" /> 1908 г..
+                    </div>
+                </div>
+            </div>
+            <div class="question">
+                <div class="Hed">
+                    <INPUT type="hidden" size="1" value="" name="T3" /><b> Когда прошел первый Кубок Мира по футболу?</b>
+                </div>
+                <div class="Motto">
+                    <div>
+                        <input type="radio" value="0" name="Q3" /> 1922 г;
+                    </div>
+                    <div>
+                        <input type="radio" value="1" name="Q3" /> 1930 г;
+                    </div>
+                    <div>
+                        <input type="radio" value="2" name="Q3" /> 1938 г;
+                    </div>
+                    <div>
+                        <input type="radio" value="3" name="Q3" /> 1950 г.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="question_main">
+            <div class="question">
+                <div class="Hed">
+                    <INPUT type="hidden" size="1" value="" name="T4" /><b> Первый Чемпионом Мира по футболу стала сборная?</b>
+                </div>
+                <div class="Motto">
+                    <div>
+                        <input type="radio" value="0" name="Q4" /> Франция;
+                    </div>
+                    <div>
+                        <input type="radio" value="1" name="Q4" /> Англия;
+                    </div>
+                    <div>
+                        <input type="radio" value="2" name="Q4" /> Уругвай;
+                    </div>
+                    <div>
+                        <input type="radio" value="3" name="Q4" /> Аргентина.
+                    </div>
+                </div>
+            </div>
+            <div class="question">
+                <div class="Hed">
+                    <INPUT type="hidden" size="1" value="" name="T5" /><b> В каком году сборная Англии выиграла свой первый и единственный Чемпионат Мира? </b>
+                </div>
+                <div class="Motto">
+                    <div>
+                        <input type="radio" value="0" name="Q5" /> 1966 г.;
+                    </div>
+                    <div>
+                        <input type="radio" value="1" name="Q5" /> 1974 г.;
+                    </div>
+                    <div>
+                        <input type="radio" value="2" name="Q5" /> 1982 г.;
+                    </div>
+                    <div>
+                        <input type="radio" value="3" name="Q5" /> 1998 г.
+                    </div>
+                </div>
+            </div>
+            <div class="question">
+                <div class="Hed">
+                    <INPUT type="hidden" size="1" value="" name="T6" /><b> Кто является победителем Первого Кубка Европы?</b>
+                </div>
+                <div class="Motto">
+                    <div>
+                        <input type="radio" value="0" name="Q6" /> Венгрия;
+                    </div>
+                    <div>
+                        <input type="radio" value="1" name="Q6" /> ФРГ;
+                    </div>
+                    <div>
+                        <input type="radio" value="2" name="Q6" /> СССР;
+                    </div>
+                    <div>
+                        <input type="radio" value="3" name="Q6" /> ГДР.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="question_main">
+            <div class="question">
+                <div class="Hed">
+                    <INPUT type="hidden" size="1" value="" name="T7" /><b> Кого по праву считаю лучшим вратарем XX века?</b>
+                </div>
+                <div class="Motto">
+                    <div>
+                        <input type="radio" value="0" name="Q7" /> Гордон Бэнкс;
+                    </div>
+                    <div>
+                        <input type="radio" value="1" name="Q7" /> Питер Шмейхель;
+                    </div>
+                    <div>
+                        <input type="radio" value="2" name="Q7" /> Лев Яшин;
+                    </div>
+
+                    <div>
+                        <input type="radio" value="3" name="Q7" /> Клаудио Таффарел
+                    </div>
+                </div>
+            </div>
+            <div class="question">
+                <div class="Hed">
+                    <INPUT type="hidden" size="1" value="" name="T8" /><b> В каком году легендарный советский вратарь Лев Яшин получил приз лучшему игроку Европы "Золотой мяч" ?</b>
+                </div>
+                <div class="Motto">
+                    <div>
+                        <input type="radio" value="0" name="Q8" /> 1963;
+                    </div>
+                    <div>
+                        <input type="radio" value="1" name="Q8" /> 1965;
+                    </div>
+                    <div>
+                        <input type="radio" value="2" name="Q8" /> 1966;
+                    </div>
+                    <div>
+                        <input type="radio" value="3" name="Q8" /> 1968.
+                    </div>
+                </div>
+            </div>
+            <div class="question">
+                <div class="Hed">
+                    <INPUT type="hidden" size="1" value="" name="T9" /><b> Кого прозвали "Королем футбола" и лучшим футболистом XX века?</b>
+                </div>
+                <div class="Motto">
+                    <div>
+                        <input type="radio" value="0" name="Q9" /> Герд Мюллер;
+                    </div>
+                    <div>
+                        <input type="radio" value="1" name="Q9" /> Пеле;
+                    </div>
+                    <div>
+                        <input type="radio" value="2" name="Q9" /> Диего Марадона;
+                    </div>
+                    <div>
+                        <input type="radio" value="3" name="Q9" /> Йохан Кройф.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="question_main">
+            <div class="question">
+                <div class="Hed">
+                    <INPUT type="hidden" size="1" value="" name="T10" /><b> В каком году сборная СССР выиграла Кубок Европы?</b>
+                </div>
+                <div class="Motto">
+                    <div>
+                        <input type="radio" value="0" name="Q10" /> 1984 г.;
+                    </div>
+                    <div>
+                        <input type="radio" value="1" name="Q10" /> 1960 г.;
+                    </div>
+                    <div>
+                        <input type="radio" value="2" name="Q10" /> 1988 г.;
+                    </div>
+                    <div>
+                        <input type="radio" value="3" name="Q10" /> 1964 г.
+                    </div>
+                </div>
+            </div>
+            <div class="question">
+                <div class="Hed">
+                    <INPUT type="hidden" size="1" value="" name="T11" /><b> В каком году сборная СССР впервые стала Олимпийским Чемпионом? </b>
+                </div>
+                <div class="Motto">
+                    <div>
+                        <input type="radio" value="0" name="Q11" /> 1956 г.;
+                    </div>
+                    <div>
+                        <input type="radio" value="1" name="Q11" /> 1988 г.;
+                    </div>
+                    <div>
+                        <input type="radio" value="2" name="Q11" /> 1968 г.;
+                    </div>
+                    <div>
+                        <input type="radio" value="3" name="Q11" /> 1992 г.;
+                    </div>
+                </div>
+            </div>
+
+            <div class="question">
+                <div class="Hed">
+                    <INPUT type="hidden" size="1" value="" name="T12" /><b> Какую команду сборная СССР победила в финале Олимпийских Игр 1988 г. в Сеуле?</b>
+                </div>
+                <div class="Motto">
+                    <div>
+                        <input type="radio" value="0" name="Q12" /> ФРГ;
+                    </div>
+                    <div>
+                        <input type="radio" value="1" name="Q12" /> Италия;
+                    </div>
+                    <div>
+                        <input type="radio" value="2" name="Q12" /> Бразилия;
+                    </div>
+                    <div>
+                        <input type="radio" value="3" name="Q12" /> Австралия.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="question_main">
+            <div class="question">
+                <div class="Hed">
+                    <INPUT type="hidden" size="1" value="" name="T13" /><b> С какой периодичностью проводится Чемпионат Мира и Чемпионат Европы по футболу?</b>
+                </div>
+                <div class="Motto">
+                    <div>
+                        <input type="radio" value="0" name="Q13" /> раз в 2 года;
+                    </div>
+                    <div>
+                        <input type="radio" value="1" name="Q13" /> раз в 3 года;
+                    </div>
+                    <div>
+                        <input type="radio" value="2" name="Q13" /> раз в 4 года;
+                    </div>
+                    <div>
+                        <input type="radio" value="3" name="Q13" /> раз в 5 лет.
+                    </div>
+                </div>
+            </div>
+            <div class="question">
+                <div class="Hed">
+                    <INPUT type="hidden" size="1" value="" name="T14" /><b> В этой стране в 1998 году проходил Чемпионат Мира, и хозяйка турнира выиграла его. Что за страна?</b>
+                </div>
+                <div class="Motto">
+                    <div>
+                        <input type="radio" value="0" name="Q14" /> Испания;
+                    </div>
+                    <div>
+                        <input type="radio" value="1" name="Q14" /> Германия;
+                    </div>
+                    <div>
+                        <input type="radio" value="2" name="Q14" /> Аргентина;
+                    </div>
+                    <div>
+                        <input type="radio" value="3" name="Q14" /> Франция.
+                    </div>
+                </div>
+            </div>
+            <div class="question">
+                <div class="Hed">
+                    <INPUT type="hidden" size="1" value="" name="T15" /><b> Назовите прославленного советского тренера вошедшего в десятку лучших тренеров XX века</b>
+                </div>
+                <div class="Motto">
+                    <div>
+                        <input type="radio" value="0" name="Q15" /> Валентин Иванов;
+                    </div>
+                    <div>
+                        <input type="radio" value="1" name="Q15" /> Анатолий Бышовец;
+                    </div>
+                    <div>
+                        <input type="radio" value="2" name="Q15" /> Валерий Лобановский;
+                    </div>
+                    <div>
+                        <input type="radio" value="3" name="Q15" /> Павел Садырин.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="question_main">
+            <div class="question">
+                <div class="Hed">
+                    <INPUT type="hidden" size="1" value="" name="T16" /><b> Назовите самый титулованный клуб СССР, двухкратного обладателя Кубка Кубков УЕФА? </b>
+                </div>
+                <div class="Motto">
+                    <div>
+                        <input type="radio" value="0" name="Q16" /> "Динамо" Москва;
+                    </div>
+                    <div>
+                        <input type="radio" value="1" name="Q16" /> "Спартак" Москва;
+                    </div>
+                    <div>
+                        <input type="radio" value="2" name="Q16" /> "Динамо" Тбилиси;
+                    </div>
+                    <div>
+                        <input type="radio" value="3" name="Q16" /> "Динамо" Киев.
+                    </div>
+                </div>
+            </div>
+            <div class="question">
+                <div class="Hed">
+                    <INPUT type="hidden" size="1" value="" name="T17" /><b> Год основания УЕФА?
+                    </b>
+                </div>
+                <div class="Motto">
+                    <div>
+                        <input type="radio" value="0" name="Q17" /> 1950 г.;
+                    </div>
+                    <div>
+                        <input type="radio" value="1" name="Q17" /> 1960 г.;
+                    </div>
+                    <div>
+                        <input type="radio" value="2" name="Q17" /> 1954 г.;
+                    </div>
+                    <div>
+                        <input type="radio" value="3" name="Q17" /> 1964 г.
+                    </div>
+                </div>
+            </div>
+            <div class="question">
+                <div class="Hed">
+                    <INPUT type="hidden" size="1" value="" name="T18" /><b> Кто является действующим президентом ФИФА? </b>
+                </div>
+                <div class="Motto">
+                    <div>
+                        <input type="radio" value="0" name="Q18" /> Джанни Инфантино;
+                    </div>
+                    <div>
+                        <input type="radio" value="1" name="Q18" /> Йозеп Блаттер;
+                    </div>
+                    <div>
+                        <input type="radio" value="2" name="Q18" /> Жоао Авеланж;
+                    </div>
+                    <div>
+                        <input type="radio" value="3" name="Q18" /> Мишель Платини.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="question_main">
+            <div class="question">
+                <div class="Hed">
+                    <INPUT type="hidden" size="1" value="" name="T19" /><b> Эти две сборные являются четырехкратными победителями Кубка Мира. Кто они?</b>
+                </div>
+                <div class="Motto">
+                    <div>
+                        <input type="radio" value="0" name="Q19" /> Англия и Франция;
+                    </div>
+                    <div>
+                        <input type="radio" value="1" name="Q19" /> Португалия и Испания;
+                    </div>
+                    <div>
+                        <input type="radio" value="2" name="Q19" /> Аргентина и Уругвай;
+                    </div>
+                    <div>
+                        <input type="radio" value="3" name="Q19" /> Италия и Германия.
+                    </div>
+                </div>
+            </div>
+
+            <div class="question">
+                <div class="Hed">
+                    <INPUT type="hidden" size="1" value="" name="T20" /><b> Назовите самую титулованную сборную Европы по футболу?</b>
+                </div>
+                <div class="Motto">
+                    <div>
+                        <input type="radio" value="0" name="Q20" /> Германия (ФРГ);
+                    </div>
+                    <div>
+                        <input type="radio" value="1" name="Q20" /> Англия;
+                    </div>
+                    <div>
+                        <input type="radio" value="2" name="Q20" /> Испания;
+                    </div>
+                    <div>
+                        <input type="radio" value="3" name="Q20" /> Франция.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+    <!-- Test created by service http://test.fromgomel.com -->
+</body>
+
+</html>
