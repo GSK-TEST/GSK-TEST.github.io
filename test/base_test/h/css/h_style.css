@@ -1,0 +1,239 @@
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.nav .sercle_nav {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+
+
+
+}
+
+
+.nav .sercle_nav .sercle {
+    width: 125px;
+    height: 125px;
+
+
+    border-radius: 100px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+
+
+
+
+}
+
+.nav .sercle_nav .sercle .sercl {
+
+    position: absolute;
+    width: 125px;
+    height: 125px;
+    transition: transform 1s ease-in-out;
+    text-align: center;
+  overflow: hidden;
+    border-radius: 100px;
+    border: 10px solid #0b1b48;
+   
+}
+
+.nav .sercle_nav .sercle img {
+    opacity: 0;
+    transition: 1s;
+margin: auto;
+    position: absolute;
+    top: 43px;
+    left: 43px;
+
+}
+
+.sercle:hover .sercl img {
+    opacity: 1;
+    transition: 1.1s;
+   
+}
+.sercl:nth-child(1):hover img {
+    top: 43px;
+    left: 123px;
+    opacity: 0;
+    transition: .7s;
+}
+.sercl:nth-child(2):hover img {
+    top: 43px;
+    left: 123px;
+    opacity: 0;
+    transition: .7s;
+}
+.sercl:nth-child(3):hover img {
+    top: 43px;
+    left: 123px;
+    opacity: 0;
+    transition: .7s;  
+}
+
+.sercl:nth-child(4):hover img {
+    top: 43px;
+    left: 123px;
+    opacity: 0;
+    transition: .7s;  
+}
+
+.sercl:nth-child(5):hover img {
+    top: 43px;
+    left: 123px;
+    opacity: 0;
+    transition: .7s;
+}
+
+
+.sercle:hover .sercl:nth-child(1) {
+
+    transition: transform 1s ease-in-out;
+    transform: translate(-75px, 35px);
+    border-color: #FFFF00;
+
+
+}
+
+.sercle .sercl a {
+    opacity: 0;
+    position: relative;
+    transition: left .8s;
+    top:53px;
+    left: -70px;
+    font-size: 18px;
+color: #000;
+    text-decoration:none;
+    
+    
+}
+.sercle .sercl:nth-child(2) a {
+    opacity: 0;
+    position: relative;
+    transition: left .8s;
+    top:53px;
+    left: -70px;
+    font-size: 18px;
+color: #000;
+    text-decoration:none;
+    width: 50px;
+    height: 100px;
+      
+}
+.sercle .sercl:nth-child(5) a{
+   font-size: 18px; 
+}
+.sercle .sercl:hover a{
+    opacity: 1;
+    top: 53px;
+    left: 2px;
+    text-align: center;
+    transition: left .8s ;
+}
+.sercle .sercl:not(:hover) a{
+    opacity: 0;
+    transition: 1s;
+}
+.sercle .sercl:nth-child(4):hover a{
+    opacity: 1;
+    top: 53px;
+    left: 2px;
+    
+    transition: left .8s ;
+}
+.sercle .sercl:nth-child(3):hover a{
+    opacity: 1;
+    top: 53px;
+    left: 2px;
+    
+    transition: left .8s ;
+}
+.sercle .sercl:nth-child(2):hover a{
+    opacity: 1;
+    top: 45px;
+    left: 1px;
+    transition: left .8s ;
+}
+.sercle .sercl:nth-child(5):hover a{
+    opacity: 1;
+    top: 53px;
+    left: 1px;
+    
+    transition: left .8s ;
+}
+.sercle .sercl:not(:hover) a{
+    opacity: 0;
+    transition: 1s;
+}
+
+
+
+.sercle:hover .sercl:nth-child(2) {
+
+    transition: transform 1s ease-in-out;
+    transform: translate(75px, 35px);
+    border-color: #00FF00;
+
+}
+.sercle .mn{
+    font-size: 24px;
+    opacity: 1;
+    transition: 1s;
+    
+}
+
+.sercle:hover .mn {
+   opacity:0;
+transition: 1s;
+    font-size: 24px;
+    
+}
+
+
+
+.sercle:hover .sercl:nth-child(3) {
+
+    transition: transform 1s ease-in-out;
+    transform: translate(0, -60px);
+    border-color: #000;
+
+}
+
+.sercle:hover .sercl:nth-child(4) {
+
+    transition: transform 1s ease-in-out;
+    transform: translate(-150px, -60px);
+    border-color: blue;
+}
+
+.sercle:hover .sercl:nth-child(5) {
+
+    transition: transform 1s ease-in-out;
+    transform: translate(150px, -60px);
+    border-color: #FF0000;
+
+}
+
+
+.nav .sercle_nav .sercle img {
+    width: 40px;
+    height: 40px;
+}
+
+
+
+
+
+
