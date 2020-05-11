@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+    <link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+    <script src="js/modernizr.js"></script> <!-- Modernizr -->
+    <link rel="stylesheet" href="nav_style.css">
+    <title>Главная</title>
+    <link rel="stylesheet" href="css/style_base.css">
+</head>
+
+<body>
+    <div class="logo">
+        <div class="sercle">
+            <div class="sercl"></div>
+            <div class="sercl"></div>
+            <div class="sercl"></div>
+            <div class="sercl"></div>
+            <div class="sercl"></div>
+            <div class="sercl"></div>
+            <div class="sercl"></div>
+            <div class="sercl"></div>
+            <div class="sercl"></div>
+            <div class="sercl"></div>
+        </div>
+    </div>
+
+
+
+    <header class="header">
+        <div class="alarm-clock">
+
+            <div class="time">
+                <p>ВРЕМЯ</p>
+                <span class="hours"></span>
+                <span class="colon">:</span>
+                <span class="minutes"></span>
+                <span class="colon">:</span>
+                <span class="seconds"></span>
+            </div>
+            <div class="text">
+                <p>Мир. Труд. Май.</p>
+            </div>
+            <div class="date">
+                <p>ДАТА</p>
+                <span class="day"></span>
+                <span class="colon">.</span>
+                <span class="month"></span>
+                <span class="colon">.</span>
+                <span class="year"></span>
+            </div>
+        </div>
+
+
+
+    </header>
+    <div class="Navigation_bar">
+        <div class='home'><a href="../index.html">Главная</a></div>
+        <div class='Test_base'><a href="#">База<br>Тестов</a></div>
+        <div class='Contacts'><a href="#">Контакты</a></div>
+        <div class='news'><a href="#">Новости</a></div>
+    </div>
+  <main class="cd-main-content">
+        <div class="cd-tab-filter-wrapper">
+            <div class="cd-tab-filter">
+                <ul class="cd-filters">
+                    <li class="placeholder">
+                        <a data-type="all" href="#0">Все тесты</a> <!-- selected option on mobile -->
+                    </li>
+                    <li class="filter"><a class="selected" href="#0" data-type="all">Все тесты</a></li>
+                    <li class="filter" data-filter=".EDB"><a href="#0" data-type="EDB">Единоборства</a></li>
+                    <li class="filter" data-filter=".SE"><a href="#0" data-type="SE">Спортивные игры</a></li>
+                    <li class="filter" data-filter=".MB"><a href="#0" data-type="MB">Многоборья</a></li>
+                    <li class="filter" data-filter=".DT"><a href="#0" data-type="DT">Другие тесты</a></li>
+                    <li class="filter" data-filter=".CVS"><a href="#0" data-type="CVS">Циклические виды спорта</a></li>
+                    <li class="filter" data-filter=".SSVS"><a href="#0" data-type="SSVS">Скоростно-силовые виды спорта</a></li>
+                    <li class="filter" data-filter=".SVS"><a href="#0" data-type="SVS">Сложнокоординационные виды спорта</a></li>
+                    
+                </ul> <!-- cd-filters -->
+            </div> <!-- cd-tab-filter -->
+        </div> <!-- cd-tab-filter-wrapper -->
+
+        <section class="cd-gallery">
+           <div class="scrollbar" id="style-2">
+      <div class="force-overflow"></div>
+    
+            <ul >
+
+                <li class="card h mix SE">
+                    <div class="content">
+                        <h2 class="title">По хоккею</h2>
+                        <form action="base_test/h/h.html"><button class="btn">Пройти</button></form>
+                    </div>
+                </li>
+                
+                
+                <li class="card v mix SE">
+                    <div class="content">
+                        <h2 class="title">По Волейболу</h2>
+                        <form action="base_test/v/vindex.html"><button class="btn">Пройти</button></form>
+                    </div>
+                </li>
+
+
+                <li class="card b mix SE">
+                    <div class="content">
+                        <h2 class="title">По Баскетболу</h2>
+                        <form action="base_test/b/bindex.html"><button class="btn">Пройти</button></form>
+                    </div>
+
+                </li>
+               
+                <li class="card f mix SE">
+                    <div class="content">
+                        <h2 class="title">По Футболу</h2>
+                        <form action="base_test/f/findex.html"><button class="btn">Пройти</button></form>
+                    </div>
+
+                </li>
+                <li class="card OL mix DT">
+                    <div class="content">
+                        <h2 class="title">По Олимпийским Играм</h2>
+                        <form action="base_test/ol/ol.html"><button class="btn">Пройти</button></form>
+                    </div>
+                </li>
+            </ul>
+            <div class="cd-fail-message">No results found</div>
+            </div>
+        </section> <!-- cd-gallery -->
+
+
+
+
+    </main>
+
+        <!--<script type="text/javascript" language="JavaScript">
+            function showhide(obj) {
+                if (obj == 'none') return 'inline';
+                else return 'none';
+            }
+
+        </script>
+        <center><span style="color:#006699;text-decoration:underline;cursor:pointer;" onclick="document.getElementById('instruction').style.display = showhide(document.getElementById('instruction').style.display)">
+                Инструкция</span>
+            <br />
+            <div id="instruction" style="display: none; width: 100%;">
+                <ul>
+                    <li>Выберите один из вариантов в каждом из 20 вопросов;</li>
+                    <li>Нажмите на кнопку "Показать результат";</li>
+                    <li>Скрипт не покажет результат, пока Вы не ответите на все вопросы;</li>
+
+                    <li>За каждый правильный ответ начисляется 1 балл;</li>
+                    <li>Оценки: менее 10 баллов - НЕУДОВЛЕТВОРИТЕЛЬНО, от 10 но менее 15 - УДОВЛЕТВОРИТЕЛЬНО, 15 и менее 20 - ХОРОШО, 20 - ОТЛИЧНО;</li>
+                </ul>
+            </div>
+        </center>-->
+    
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+    <script src='https://cdn.jsdelivr.net/masonry/4.1.1/masonry.pkgd.min.js'></script>
+    <script src="script.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/jquery-2.1.1.js"></script>
+    <script src="js/jquery.mixitup.min.js"></script>
+    <script src="js/main.js"></script> <!-- Resource jQuery -->
+</body>
+
+</html>
