@@ -455,7 +455,12 @@ body {
     animation: blink 2s infinite;
 }
 
-
+.sb {
+    background-image: url(otborochnyj-v-oklende-ssha-2012-1200x800.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
 
 
 
@@ -532,19 +537,7 @@ body {
     }
 }
 
-.lo {
-    background-image: url(6518-m.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-}
 
-.nt {
-    background-image: url(s1200.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-}
 
 .card {
 
@@ -596,30 +589,6 @@ body {
     transition: -webkit-transform calc(var(--d) * 2) var(--e);
     transition: transform calc(var(--d) * 2) var(--e);
     transition: transform calc(var(--d) * 2) var(--e), -webkit-transform calc(var(--d) * 2) var(--e);
-}
-
-.h .card:before {
-    background-image: url("3d4b74870606b67c1ec742f51bf48390.jpg");
-    width: 225px;
-    height: 250px;
-}
-
-.b .card:before {
-    background-image: url("b/foto_basketbolnogo_mjacha.jpg");
-    width: 225px;
-    height: 250px;
-}
-
-.f .card:before {
-    background-image: url("f/unnamed.jpg");
-    width: 225px;
-    height: 250px;
-}
-
-.OL .card:before {
-    background-image: url("test/base_test/ol/1.jpg");
-    width: 225px;
-    height: 250px;
 }
 
 .content {
