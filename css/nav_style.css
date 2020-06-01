@@ -461,6 +461,12 @@ body {
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
+.bn {
+    background-image: url(s1200.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
 
 
 
@@ -548,7 +554,7 @@ body {
     align-items: flex-end;
     overflow: hidden;
     padding: 1rem;
-    width: 350px;
+    width: 400px;
     height: 320px;
     text-align: center;
     color: whitesmoke;
